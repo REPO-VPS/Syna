@@ -199,7 +199,7 @@ clear
 
 yellow "Add Domain for vmess/vless/trojan dll"
 echo "-------------------------------------"
-echo "     Scipt Mod By NEVERMORE "
+echo "     Scipt Mod By GH-Reyz "
 echo "-------------------------------------"
 read -rp "Input your domain : " -e pp
 echo "$pp" > /root/domain
