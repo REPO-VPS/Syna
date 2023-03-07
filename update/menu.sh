@@ -196,7 +196,7 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"                                               
 echo -e "  ${COLOR1}[13]${NC} • REG IP  [${YELLOW}Menu${NC}]   ${COLOR1}[14]${NC} • SET BOT  [${YELLOW}Menu${NC}]  $COLOR1 $NC"
 echo -e ""
-echo -e "  ${COLOR1}[99]${NC} • SET DNS [${YELLOW}Menu${NC}]      $COLOR1 $NC"
+echo -e "  ${COLOR1}[99]${NC} • SET DNS [${YELLOW}Menu${NC}]   ${COLOR1}[14]${NC} • PASSWORD [${YELLOW}Tukar${NC}] $COLOR1 $NC"
 if [ "$Isadmin" = "ON" ]; then
 echo -e "                                                  $COLOR1│$NC"
 ressee="menu-ip"
@@ -253,7 +253,8 @@ case $opt in
 06 | 7) clear ; menu-theme ;;
 07 | 8) clear ; menu-backup ;;
 09 | 9) clear ; add-host ;;
-99 | 99) clear ; menu-dns ;;
+99 | 98) clear ; menu-dns ;;
+99 | 99) clear ; passwd
 10) clear ; crtxray ;;
 11) clear ; menu-set ;;
 12) clear ; info ;;
