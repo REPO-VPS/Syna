@@ -69,7 +69,7 @@ apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && re
 ♦️ Installation Link (Recommended Debian 10) <br>
 
   ```html
-apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/NevermoreSSH/Syna/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/GH-reyz/Syna/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 ```
 
 
